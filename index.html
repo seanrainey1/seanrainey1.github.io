@@ -21,7 +21,7 @@
 <body>
 
     <script>
-        function openCity(evt, cityName) {
+        function openTab(evt, tabName) {
             // Declare all variables
             var i, tabcontent, tablinks;
 
@@ -38,7 +38,7 @@
             }
 
             // Show the current tab, and add an "active" class to the link that opened the tab
-            document.getElementById(cityName).style.display = "block";
+            document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += "active";
         }
     </script>
@@ -49,31 +49,75 @@
 
 
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Home')"> Home</button>
-        <button class="tablinks" onclick="openCity(event, 'About')"> About</button>
-        <button class="tablinks" onclick="openCity(event, 'Projects')"> Projects</button>
-        <button class="tablinks" onclick="openCity(event, 'Skills')"> Skills</button>
+        <button class="tablinks" onclick="openTab(event, 'Home')"> Home</button>
+        <button class="tablinks" onclick="openTab(event, 'About')"> About</button>
+        <button class="tablinks" onclick="openTab(event, 'Projects')"> Projects</button>
+        <button class="tablinks" onclick="openTab(event, 'Skills')"> Skills</button>
 
     </div>
 
     <div id="Home" class="tabcontent">
-        <h3> Home</h3>
-        <p> London is the capital city of England.</p>
+        <h3> <u>Home</u></h3>
+        <h4> Purpose of this Website:</h4>
+        <p> The purpose of this website is to provide information about myself and showcase my skills and completed projects.</p>
+        <h4> Introduction:</h4>
+        <p> My name is Sean Rainey and I am currently a senior at the University of Oklahoma double majoring in Accounting and Management Information Systems (MIS) while completing the accelerated Master of Accountancy program through the Price College of Bussiness.
+        I am from Dallas, TX where I hope to be employed after my graduation in May 2021.</p>
+        <p>To learn more about me, my skills, and my completed projects, please click the corresponding link on the navigation bar to the left.</p>
     </div>
 
     <div id="About" class="tabcontent">
-        <h3> About Sean</h3>
-        <p> Paris is the capital of France.</p>
+        <h3> <u>About Sean</u></h3>
+        <h4>Leadership Experience:</h4>
+        <ul>
+            <li>JCPenney Leadership Program - 2017-Present</li>
+            <li>Delta Upsilon Executive Board - Vice President of Scholarship - 2016-2017</li>
+            <li>Delta Upsilon Executive Board - Vice President of Finance - 2017-2018</li>
+        </ul>
+        <h4>Volunteering:</h4>
+        <ul>
+            <li>Price College of Business Service Day - 2017</li>
+            <li>Soonerthon - raised money for cancer research victims - 2016-2018</li>
+            <li>Relay for Life - raised money for cancer research and victims - 2016-2018</li>
+        </ul>
+        <h4>Relevant Coursework:</h4>
+        <ul>
+            <li>Investments</li>
+            <li>Financial Auditing</li>
+            <li>Database Management</li>
+            <li>Intermediate Accounting I & II</li>
+            <li>Introduction to Programming</li>
+            <li>Non-procedural Programming</li>
+            <li>Electronic Business</li>
+        </ul>
     </div>
 
     <div id="Projects" class="tabcontent">
-        <h3> Projects</h3>
-        <p> Tokyo is the capital of Japan.</p>
+        <h3><u>Projects</u> </h3>
+        <h4>Database Management Project:</h4>
+        <p> Worked in a group of four to design, create, and implement a Microsoft SQLServer database for a made-up client.</p>
+        <h4>Audit Projects:</h4>
+        <p>During the course of a semester, we were assigned two projects related to a made-up company that were completed in teams of two. The first project was to
+        finish the bookkeeping for the month of December and to do necessary year-end accounting duties such as preparing their financial statements. The second project required us to create an audit program for the company
+        and use various analytical procedures to determine audit risk.</p>
     </div>
 
     <div id="Skills" class="tabcontent">
-        <h3> Skills</h3>
-        <p> Tokyo is the capital of Japan.</p>
+        <h3> <u>Skills</u></h3>
+        <h4>Computer-Based:</h4>
+        <ul>
+            <li>SQL</li>
+            <li>C#</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Microsoft Office</li>
+        </ul>
+        <h4>Finance-Based:</h4>
+        <ul>
+            <li>Financial statement analysis</li>
+            <li>Auditing analytical procedures</li>
+            <li>Audit planning</li>
+        </ul>
     </div>
 
 

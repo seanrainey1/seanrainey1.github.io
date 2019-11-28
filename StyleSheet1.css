@@ -5,13 +5,22 @@
 
 
 body{
-    background-color: dimgray;
+    background-color: lightgrey;
+}
+
+h1{
+    color:black;
+    border:5px solid;
+    border-color:slategrey;
+    text-align:center;
+    background-color:lightseagreen;
 }
 
 
 .tab {
     float: left;
-    border: 10px solid #ccc;
+    border: 10px solid;
+    border-color:lightseagreen;
     background-color: #f1f1f1;
     width: 250px;
     height: 1000px;
@@ -44,7 +53,8 @@ body{
 .tabcontent {
     float:left;
     padding: 0px 12px;
-    border: 10px solid #ccc;
+    border: 10px solid;
+    border-color:lightseagreen;
     width: 70%;
     border-left: none;
     height: 1000px;
